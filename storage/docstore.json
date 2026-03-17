@@ -1,0 +1,152 @@
+{
+    "docstore/metadata": {
+        "b3646d0b-1eb3-48bb-949f-fdd027263123": {
+            "doc_hash": "cf4465d9d46d212b05d7a54de205ed75fd9b81810ef56df16c6f3cfadaa04a6b"
+        },
+        "a5549db9-2411-44e7-aefb-5e00b8a2ecf3": {
+            "doc_hash": "dd6f0ac6b9b13470271a7097a983102c552f39a4c9171e41ce64e1aa98cca1b1"
+        },
+        "befd6fbc-9160-4f06-a19f-1a73647c8905": {
+            "doc_hash": "bfbdb24c4c54819bcd1d0b9c445f46b52d22f5d2a5671686133c9d5fa08a0a84",
+            "ref_doc_id": "b3646d0b-1eb3-48bb-949f-fdd027263123"
+        },
+        "cef0c498-d561-4862-b1c1-885b69977480": {
+            "doc_hash": "0bcc941dec1ca6682ba3ecfc007c258a81e89f08b059d7b1d56a4ce70c67850b",
+            "ref_doc_id": "a5549db9-2411-44e7-aefb-5e00b8a2ecf3"
+        }
+    },
+    "docstore/ref_doc_info": {
+        "b3646d0b-1eb3-48bb-949f-fdd027263123": {
+            "node_ids": [
+                "befd6fbc-9160-4f06-a19f-1a73647c8905"
+            ],
+            "metadata": {
+                "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\claude\\instructions.md",
+                "file_name": "instructions.md",
+                "file_size": 155,
+                "creation_date": "2026-03-12",
+                "last_modified_date": "2026-03-12"
+            }
+        },
+        "a5549db9-2411-44e7-aefb-5e00b8a2ecf3": {
+            "node_ids": [
+                "cef0c498-d561-4862-b1c1-885b69977480"
+            ],
+            "metadata": {
+                "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\cursor\\spec.md",
+                "file_name": "spec.md",
+                "file_size": 146,
+                "creation_date": "2026-03-12",
+                "last_modified_date": "2026-03-12"
+            }
+        }
+    },
+    "docstore/data": {
+        "befd6fbc-9160-4f06-a19f-1a73647c8905": {
+            "__data__": {
+                "id_": "befd6fbc-9160-4f06-a19f-1a73647c8905",
+                "embedding": null,
+                "metadata": {
+                    "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\claude\\instructions.md",
+                    "file_name": "instructions.md",
+                    "file_size": 155,
+                    "creation_date": "2026-03-12",
+                    "last_modified_date": "2026-03-12"
+                },
+                "excluded_embed_metadata_keys": [
+                    "file_name",
+                    "file_type",
+                    "file_size",
+                    "creation_date",
+                    "last_modified_date",
+                    "last_accessed_date"
+                ],
+                "excluded_llm_metadata_keys": [
+                    "file_name",
+                    "file_type",
+                    "file_size",
+                    "creation_date",
+                    "last_modified_date",
+                    "last_accessed_date"
+                ],
+                "relationships": {
+                    "1": {
+                        "node_id": "b3646d0b-1eb3-48bb-949f-fdd027263123",
+                        "node_type": "4",
+                        "metadata": {
+                            "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\claude\\instructions.md",
+                            "file_name": "instructions.md",
+                            "file_size": 155,
+                            "creation_date": "2026-03-12",
+                            "last_modified_date": "2026-03-12"
+                        },
+                        "hash": "cf4465d9d46d212b05d7a54de205ed75fd9b81810ef56df16c6f3cfadaa04a6b",
+                        "class_name": "RelatedNodeInfo"
+                    }
+                },
+                "metadata_template": "{key}: {value}",
+                "metadata_separator": "\n",
+                "text": "# Development Instructions\r\n- All Hebrew text must support RTL (Right-to-Left).\r\n- We have decided to translate the interface into Hebrew and English only.",
+                "mimetype": "text/plain",
+                "start_char_idx": 0,
+                "end_char_idx": 155,
+                "text_template": "{metadata_str}\n\n{content}",
+                "class_name": "TextNode"
+            },
+            "__type__": "1"
+        },
+        "cef0c498-d561-4862-b1c1-885b69977480": {
+            "__data__": {
+                "id_": "cef0c498-d561-4862-b1c1-885b69977480",
+                "embedding": null,
+                "metadata": {
+                    "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\cursor\\spec.md",
+                    "file_name": "spec.md",
+                    "file_size": 146,
+                    "creation_date": "2026-03-12",
+                    "last_modified_date": "2026-03-12"
+                },
+                "excluded_embed_metadata_keys": [
+                    "file_name",
+                    "file_type",
+                    "file_size",
+                    "creation_date",
+                    "last_modified_date",
+                    "last_accessed_date"
+                ],
+                "excluded_llm_metadata_keys": [
+                    "file_name",
+                    "file_type",
+                    "file_size",
+                    "creation_date",
+                    "last_modified_date",
+                    "last_accessed_date"
+                ],
+                "relationships": {
+                    "1": {
+                        "node_id": "a5549db9-2411-44e7-aefb-5e00b8a2ecf3",
+                        "node_type": "4",
+                        "metadata": {
+                            "file_path": "C:\\Users\\user1\\Desktop\\RAG\\my_project\\cursor\\spec.md",
+                            "file_name": "spec.md",
+                            "file_size": 146,
+                            "creation_date": "2026-03-12",
+                            "last_modified_date": "2026-03-12"
+                        },
+                        "hash": "dd6f0ac6b9b13470271a7097a983102c552f39a4c9171e41ce64e1aa98cca1b1",
+                        "class_name": "RelatedNodeInfo"
+                    }
+                },
+                "metadata_template": "{key}: {value}",
+                "metadata_separator": "\n",
+                "text": "# Project Specification\r\nThe main theme color for this application is **Emerald Green**.\r\nWe are using a PostgreSQL database for all user records.",
+                "mimetype": "text/plain",
+                "start_char_idx": 0,
+                "end_char_idx": 146,
+                "text_template": "{metadata_str}\n\n{content}",
+                "class_name": "TextNode"
+            },
+            "__type__": "1"
+        }
+    }
+}

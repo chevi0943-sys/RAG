@@ -1,0 +1,8 @@
+{
+    "index_store/data": {
+        "f8b187c6-9537-49f7-87dc-a35d5052236c": {
+            "__type__": "vector_store",
+            "__data__": "{\"index_id\": \"f8b187c6-9537-49f7-87dc-a35d5052236c\", \"summary\": null, \"nodes_dict\": {\"befd6fbc-9160-4f06-a19f-1a73647c8905\": \"befd6fbc-9160-4f06-a19f-1a73647c8905\", \"cef0c498-d561-4862-b1c1-885b69977480\": \"cef0c498-d561-4862-b1c1-885b69977480\"}, \"doc_id_dict\": {}, \"embeddings_dict\": {}}"
+        }
+    }
+}
