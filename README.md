@@ -17,6 +17,11 @@ An advanced **Retrieval-Augmented Generation (RAG)** system designed to query pr
 * **Interface:** **Gradio**
 
 ## 📊 Process Architecture
+<img width="970" height="734" alt="צילום מסך 2026-03-17 162633" src="https://github.com/user-attachments/assets/90cbd6b2-af30-41b3-95bc-ee14bbc36ab8" />
+
+### Workflow Visualization
+
+*Visual representation of the event-driven retrieval and validation process.*
 
 ### 🛡️ Guardrails & Infinite Loop Prevention
 The system includes a **Self-Correction Loop** (from `validate` to `rewrite_query`). 
