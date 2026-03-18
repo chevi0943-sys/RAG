@@ -1,40 +1,41 @@
-🤖 Agentic RAG Assistant for Coding Documentation
-An advanced Retrieval-Augmented Generation (RAG) system designed to query project documentation. The system integrates Semantic Search with Structured Data Extraction to provide precise answers for both qualitative and quantitative queries.
+# 🤖 Agentic RAG Assistant for Coding Documentation
 
-🚀 Key Features
-Hybrid Search: Intelligent routing between Vector Search (Pinecone/Local) and Structured Data (JSON).
+An advanced **Retrieval-Augmented Generation (RAG)** system designed to query project documentation. The system integrates **Semantic Search** with **Structured Data Extraction** to provide precise answers for both qualitative and quantitative queries.
 
-Event-Driven Workflow: Modern architecture built using LlamaIndex Workflows.
+## 🚀 Key Features
 
-Self-Healing: Advanced Query Rewriting capabilities that trigger automatically if no relevant information is found.
+* **Hybrid Search:** Intelligent routing between **Vector Search (Pinecone/Local)** and **Structured Data (JSON)**.
+* **Event-Driven Workflow:** Modern architecture built using **LlamaIndex Workflows**.
+* **Self-Healing:** Advanced **Query Rewriting** capabilities that trigger automatically if no relevant information is found.
+* **Interactive UI:** A user-friendly chat interface powered by **Gradio**.
 
-Interactive UI: A user-friendly chat interface powered by Gradio.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Framework: LlamaIndex
+* **Framework:** **LlamaIndex**
+* **LLM & Embeddings:** **Cohere (Command-R)**
+* **Database:** **JSON / Vector Store**
+* **Interface:** **Gradio**
 
-LLM & Embeddings: Cohere (Command-R)
+## 📊 Process Architecture
 
-Database: JSON / Vector Store
+### 🛡️ Guardrails & Infinite Loop Prevention
+The system includes a **Self-Correction Loop** (from `validate` to `rewrite_query`). 
 
-Interface: Gradio
+> **Note:** This is managed by a **Retry Counter** limited to **3 attempts**. If no relevant information is found after 3 rewrites, the system executes a controlled **StopEvent** to prevent infinite loops and provide a clear "information not found" message.
 
-📊 Process Architecture
-🛡️ Guardrails & Infinite Loop Prevention
-The system includes a Self-Correction Loop (from validate to rewrite_query).
+---
 
-Note: This is managed by a Retry Counter limited to 3 attempts. If no relevant information is found after 3 rewrites, the system executes a controlled StopEvent to prevent infinite loops and provide a clear "information not found" message.
+## 📖 How to Run
 
-📖 How to Run
-Install Dependencies:
-
-Bash
-pip install -r requirements.txt
-Extract Data:
-
-Bash
-python extract_data.py
-Run Assistant:
-
-Bash
-python workflow_chat.py
+1.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+2.  **Extract Data:**
+    ```bash
+    python extract_data.py
+    ```
+3.  **Run Assistant:**
+    ```bash
+    python workflow_chat.py
+    ```
